@@ -9,9 +9,176 @@
     margin-top: 130px;
   }
 
- body{ 
+ body{
+    /* width: 1440px;  */
     margin:0 auto;
+    
  }
- .mobile{
+ .nav-mobile{
     display:none;
  }
+
+ .yellow{
+    color: rgba(254, 163, 1, 1);
+ }
+
+ .blue{
+    color:rgba(1, 172, 253, 1)
+ }
+ .blue2{
+    color: rgba(5, 212, 223, 1)}
+
+.blue3{
+    color:rgba(93, 88, 239, 1)
+}
+
+.display-flex{
+    display: flex;
+}
+
+ /* navigation style */
+ .nav-main{
+    width: 1160px;
+    height: 62px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px auto;
+   
+    
+   
+ }
+ .left-side{
+   align-items: center;
+    
+ }
+ .nav-title{
+    font-size: 2rem; 
+    font-weight: 600;
+    color: black;
+
+ }
+
+ .logo-img{
+    width: 67px;
+    height: 67px;
+
+    
+  }
+
+.middle-side{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.links{
+    gap: 20px;;
+}
+ .link1{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+ }
+
+ .link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight:600;
+    
+
+ }
+ .list{
+    list-style: none;
+ }
+
+ .nav-btn{
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    width: 197px;
+    height: 54px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+
+ }
+
+
+ /* banner sactions styles.. */
+
+ .banner{
+    max-width: 1160px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ 
+
+ .banner-title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    
+ }
+
+ .banner-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+  
+}
+
+.black-button{
+    background-color: rgb(5, 5, 5);
+    color: white;
+    width: 197px;
+    height: 54px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+
+}
+
+/* Standard curriculum.. */
+
+.standard-curriculum{
+
+}
+
+.Curriculum-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: black;
+}
+
+
+ 
+
+ @media screen and (max-width:576px) {
+          
+         .nav-main{
+            display: none;
+          }   
+          .nav-mobile{
+            max-width:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rgb(245, 171, 33);
+            padding: 5px 30px;
+          }
+
+          .banner{
+            flex-direction: column-reverse;
+            justify-content: center;
+
+          }
+          .banner-content{
+            text-align:center ;
+            margin:20px;
+          }
+
+
+ } 
+    
+ 
