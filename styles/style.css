@@ -26,14 +26,19 @@
     color:rgba(1, 172, 253, 1)
  }
  .blue2{
-    color: rgba(5, 212, 223, 1)}
+    color: rgba(5, 212, 223, 1);
+}
 
 .blue3{
-    color:rgba(93, 88, 239, 1)
+    color:rgba(93, 88, 239, 1);
 }
 
 .display-flex{
     display: flex;
+}
+
+.background-image{
+    background-image: url(/assets/bg.png);
 }
 
  /* navigation style */
@@ -142,7 +147,8 @@
 /* Standard curriculum.. */
 
 .standard-curriculum{
-
+      text-align: center;
+      margin: 200px auto;
 }
 
 .Curriculum-title{
@@ -151,6 +157,180 @@
     color: black;
 }
 
+.card-container{
+    
+    gap: 28px;
+    justify-content: center;
+    margin:0 auto;
+    
+}
+
+.bg-color1{
+    background-color:rgba(222, 245, 255, 1)
+}
+
+.bg-color2{
+    background-color:rgba(255, 244, 220, 1);
+}
+
+.bg-color3{
+    background-color:rgba(242, 232, 255, 1);
+}
+
+.card{
+    max-width: 370px;
+    text-align: center;
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 8px;
+    padding: 100px 40px;
+   
+    
+    
+    
+    
+}
+
+.card-title{
+     font-size: 1.5rem;
+     font-weight: 700;
+     color: black;
+     margin: 30px;
+    
+}
+
+.btn-card1{
+    background-color: transparent;
+    color: rgba(100, 200, 255, 1);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.btn-card2{
+    background-color: transparent;
+    color: rgba(254, 163, 1, 1);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn-card3{
+    background-color: transparent;
+    color: rgba(93, 88, 239, 1);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card-description{
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    line-height: 25px;
+}
+
+.btn-unique{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+/* Our Stories Styles  */
+
+.Our-stories{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+.collage-card-container div{
+    flex: 1;
+}
+
+.collage-card-container{
+    width: 1160px;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    
+}
+
+
+
+.stories-card{
+ background-color: rgb(186, 131, 236);
+ 
+}
+
+.left-collage{
+   width: 540px;
+   height: auto;
+   
+
+}
+
+.right-collage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.stories-btn1{
+
+     background-color: rgba(60, 216, 232, 1);
+    color: white;
+    width: 174px;
+    height: 47px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    left:100px;
+    top:100px;
+}
+
+.stories-btn2{
+
+  background-color: rgba(149, 178, 38, 1);
+   color: white;
+   width: 174px;
+   height: 47px;
+   font-size: 0.9rem;
+   font-weight: 400;
+   border: none;
+   border-radius: 40px;
+}
+
+.stories-btn-blue{
+    background-color: rgba(93, 88, 240, 1);
+    color: white;
+    width: 174px;
+    height: 47px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 40px;
+
+}
+
+.stories-btn-small{
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    width: 127px;
+    height: 38px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 40px;
+
+}
 
  
 
@@ -168,6 +348,7 @@
             padding: 5px 30px;
           }
 
+
           .banner{
             flex-direction: column-reverse;
             justify-content: center;
@@ -176,6 +357,21 @@
           .banner-content{
             text-align:center ;
             margin:20px;
+          }
+
+          .standard-curriculum{
+            justify-items: center;
+
+
+          }
+
+          .card-container{
+            flex-direction: column;
+            align-items: center;
+            
+          }
+          .btn-for-desktop{
+            display: none;
           }
 
 
