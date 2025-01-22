@@ -18,6 +18,10 @@
     display:none;
  }
 
+ linearGradient{
+     
+ }
+
  .yellow{
     color: rgba(254, 163, 1, 1);
  }
@@ -41,8 +45,13 @@
     display: none;
 }
 
-.background-image{
-    background-image: url(/assets/bg.png);
+.bg-image1{
+    background: linear-gradient(to top, white,rgba(216, 205, 205, 0.678));
+}
+
+.bg-image{
+    background-image:linear-gradient(to top, #e67b005e, #dcf5fa52), url(/assets/bg.png);
+    background-repeat: repeat;
 }
 
  /* navigation style */
@@ -170,15 +179,16 @@
 }
 
 .bg-color1{
-    background-color:rgba(222, 245, 255, 1)
+    /* background-color: linear-gradient(to top, white,rgba(255, 255, 255, 0.863), #7ce3fafd); */
+    background:linear-gradient(to top, white, rgba(247, 250, 250, 0.932), rgb(178, 245, 245));
 }
 
 .bg-color2{
-    background-color:rgba(255, 244, 220, 1);
+    background:linear-gradient(to top, white,rgba(255, 255, 255, 0.699), rgb(248, 235, 206));
 }
 
 .bg-color3{
-    background-color:rgba(242, 232, 255, 1);
+    background:linear-gradient(to top, white,rgba(255, 255, 255, 0.699),rgb(205, 189, 224));
 }
 
 .card{
@@ -247,29 +257,28 @@
 
 .Our-stories{
     text-align: center;
+    margin: 0 auto;
 }
 .collage-card-container{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 290px);
     width: 1180px;
-    margin: 0 auto;
     gap: 10px;
-    margin: 100px 0;
+    margin: 100px auto;
 }
 
 
 .stories-card{
 
     background-color:white;
-    width: 290px;
+    width: 320px;
     display: flex;
     flex-direction: column;
-    /* gap:10px; */
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-
+    position: relative;
 }
 
 .card-img{
@@ -289,6 +298,7 @@
     border-radius: 15px;
     justify-content: center;
     align-items: center;
+    position: relative;
     /* height: 630px; */
 }
 
@@ -318,20 +328,11 @@
 
 
 
-.right-collage{
-    /* max-width: 590px;
-    background-color: white; */
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px; */
-    /* padding-bottom:20px; */
-    
-   
-}
+
 
 .card-img{
     width: 100%;
-    height: 100%;
+    
 }
 
 
@@ -342,8 +343,8 @@
 
     width: 33%;
     cursor: pointer;
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    bottom:230px;
     left: 50px;
     
 }
@@ -362,11 +363,10 @@
 
 .common-btn{
     margin: 0;
-    /* width: 33%; */
     cursor: pointer;
-    position: relative;
-    bottom:25px;
-    left: 10px;
+    position: absolute;
+    bottom:80px;
+    left: 50px;
 }
 
 .stories-btn2{
