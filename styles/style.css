@@ -473,7 +473,7 @@
         body{
             /* width: 1440px;  */
             
-            margin:0 20px;
+            margin:0 auto;
             
          }
          
@@ -528,7 +528,7 @@
             margin: 0;
             cursor: pointer;
             position: absolute;
-            bottom:120px;
+            bottom:80px;
             left: 50px;
         }
         .stories-btn2{
@@ -536,7 +536,7 @@
             color: white;
             font-size: 0.5rem;
             border: none;
-            padding: 3px 13px;
+            padding: 8px 13px;
             border-radius: 40px;
         }
 
@@ -545,16 +545,20 @@
             color: white;
             font-size: 0.5rem;
             border: none;
-            padding: 3px 13px;
+            padding: 8px 13px;
             border-radius: 40px;
             
         
+        }
+
+        .Our-stories{
+            width: auto;
         }
         
         .stories-btn-small{
             background-color: rgba(149, 178, 38, 1);
             color: white;
-            padding: 3px 15px;
+            padding: 8px 15px;
             font-size: 0.5rem;
             border: none;
             border-radius: 40px;
