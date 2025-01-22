@@ -244,43 +244,11 @@
 
 /* Our Stories Styles  */
 
-.Our-stories{
-    width: 1440px;
-    margin: 0 auto;
 
-}
-.collage-card-container div{
-    flex: 1;
-}
 
-.collage-card-container{
-    width: 1160px;
-    height: 100%;
-    align-items: center;
-    margin: 0 auto;
-    gap: 10px;
+
     
-}
 
-
-
-.stories-card{
- background-color: rgb(186, 131, 236);
- 
-}
-
-.left-collage{
-   width: 540px;
-   height: auto;
-   
-
-}
-
-.right-collage{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
 .stories-btn1{
 
      background-color: rgba(60, 216, 232, 1);
@@ -291,9 +259,7 @@
     font-weight: 400;
     border: none;
     border-radius: 40px;
-    position: relative;
-    left:100px;
-    top:100px;
+    
 }
 
 .stories-btn2{
@@ -332,6 +298,59 @@
 
 }
 
+/* Footer section.. */
+
+.footer{
+    
+    
+    
+    max-width: 1440px;
+
+   
+    padding: 100px 50px;
+    margin: 50px auto;
+    background-color: rgb(95, 183, 241);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-logo{
+    align-items: center;
+}
+
+
+.footer-p{
+    width: 400px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.footer-title{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.footer-list{
+    list-style: none;
+    margin:10px;
+}
+.footer-link{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+   padding: 5px;
+}
+
+.right-footer{
+    justify-content: start;
+}
+.right-footer h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
  
 
  @media screen and (max-width:576px) {
@@ -372,6 +391,24 @@
           }
           .btn-for-desktop{
             display: none;
+          }
+
+
+
+          .footer{
+            flex-direction: column;
+            align-items: start;
+            padding: 30px 20px;
+            margin:auto
+          }
+
+          .middle-footer{
+            justify-items: left;
+            margin-left: 0px;
+          }
+
+          .links{
+            padding: 0px;
           }
 
 
